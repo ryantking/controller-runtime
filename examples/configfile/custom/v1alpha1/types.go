@@ -22,8 +22,8 @@ package v1alpha1
 import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	cfg "sigs.k8s.io/controller-runtime/pkg/config/v1alpha1"
-	"sigs.k8s.io/controller-runtime/pkg/scheme"
+	cfg "github.com/ryantking/controller-runtime/pkg/config/v1alpha1"
+	"github.com/ryantking/controller-runtime/pkg/scheme"
 )
 
 var (

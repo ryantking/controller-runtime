@@ -22,7 +22,7 @@ import (
 	. "github.com/onsi/gomega"
 	"k8s.io/client-go/kubernetes/scheme"
 	"k8s.io/client-go/tools/record"
-	"sigs.k8s.io/controller-runtime/pkg/internal/recorder"
+	"github.com/ryantking/controller-runtime/pkg/internal/recorder"
 )
 
 var _ = Describe("recorder.Provider", func() {

@@ -26,14 +26,14 @@ import (
 	"go.uber.org/goleak"
 	corev1 "k8s.io/api/core/v1"
 
-	"sigs.k8s.io/controller-runtime/pkg/client"
-	"sigs.k8s.io/controller-runtime/pkg/controller"
-	"sigs.k8s.io/controller-runtime/pkg/event"
-	"sigs.k8s.io/controller-runtime/pkg/handler"
-	"sigs.k8s.io/controller-runtime/pkg/manager"
-	"sigs.k8s.io/controller-runtime/pkg/reconcile"
-	"sigs.k8s.io/controller-runtime/pkg/runtime/inject"
-	"sigs.k8s.io/controller-runtime/pkg/source"
+	"github.com/ryantking/controller-runtime/pkg/client"
+	"github.com/ryantking/controller-runtime/pkg/controller"
+	"github.com/ryantking/controller-runtime/pkg/event"
+	"github.com/ryantking/controller-runtime/pkg/handler"
+	"github.com/ryantking/controller-runtime/pkg/manager"
+	"github.com/ryantking/controller-runtime/pkg/reconcile"
+	"github.com/ryantking/controller-runtime/pkg/runtime/inject"
+	"github.com/ryantking/controller-runtime/pkg/source"
 )
 
 var _ = Describe("controller.Controller", func() {

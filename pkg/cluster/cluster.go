@@ -27,12 +27,12 @@ import (
 	"k8s.io/client-go/kubernetes/scheme"
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/record"
-	"sigs.k8s.io/controller-runtime/pkg/client/apiutil"
-	logf "sigs.k8s.io/controller-runtime/pkg/internal/log"
+	"github.com/ryantking/controller-runtime/pkg/client/apiutil"
+	logf "github.com/ryantking/controller-runtime/pkg/internal/log"
 
-	"sigs.k8s.io/controller-runtime/pkg/cache"
-	"sigs.k8s.io/controller-runtime/pkg/client"
-	intrec "sigs.k8s.io/controller-runtime/pkg/internal/recorder"
+	"github.com/ryantking/controller-runtime/pkg/cache"
+	"github.com/ryantking/controller-runtime/pkg/client"
+	intrec "github.com/ryantking/controller-runtime/pkg/internal/recorder"
 )
 
 // Cluster provides various methods to interact with a cluster.

@@ -18,9 +18,9 @@ package v3
 import (
 	"fmt"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"sigs.k8s.io/controller-runtime/pkg/conversion"
+	"github.com/ryantking/controller-runtime/pkg/conversion"
 
-	v2 "sigs.k8s.io/controller-runtime/pkg/webhook/conversion/testdata/api/v2"
+	v2 "github.com/ryantking/controller-runtime/pkg/webhook/conversion/testdata/api/v2"
 )
 
 // EDIT THIS FILE!  THIS IS SCAFFOLDING FOR YOU TO OWN!

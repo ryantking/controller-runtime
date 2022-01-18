@@ -23,7 +23,7 @@ import (
 
 	kerrors "k8s.io/apimachinery/pkg/util/errors"
 	"k8s.io/client-go/rest"
-	"sigs.k8s.io/controller-runtime/pkg/internal/testing/certs"
+	"github.com/ryantking/controller-runtime/pkg/internal/testing/certs"
 )
 
 // NewTinyCA creates a new a tiny CA utility for provisioning serving certs and client certs FOR TESTING ONLY.

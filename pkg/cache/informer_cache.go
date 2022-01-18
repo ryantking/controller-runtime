@@ -27,9 +27,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/tools/cache"
-	"sigs.k8s.io/controller-runtime/pkg/cache/internal"
-	"sigs.k8s.io/controller-runtime/pkg/client"
-	"sigs.k8s.io/controller-runtime/pkg/client/apiutil"
+	"github.com/ryantking/controller-runtime/pkg/cache/internal"
+	"github.com/ryantking/controller-runtime/pkg/client"
+	"github.com/ryantking/controller-runtime/pkg/client/apiutil"
 )
 
 var (

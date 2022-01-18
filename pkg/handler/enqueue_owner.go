@@ -25,10 +25,10 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/client-go/util/workqueue"
-	"sigs.k8s.io/controller-runtime/pkg/event"
-	logf "sigs.k8s.io/controller-runtime/pkg/internal/log"
-	"sigs.k8s.io/controller-runtime/pkg/reconcile"
-	"sigs.k8s.io/controller-runtime/pkg/runtime/inject"
+	"github.com/ryantking/controller-runtime/pkg/event"
+	logf "github.com/ryantking/controller-runtime/pkg/internal/log"
+	"github.com/ryantking/controller-runtime/pkg/reconcile"
+	"github.com/ryantking/controller-runtime/pkg/runtime/inject"
 )
 
 var _ EventHandler = &EnqueueRequestForOwner{}

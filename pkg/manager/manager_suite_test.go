@@ -25,11 +25,11 @@ import (
 	. "github.com/onsi/gomega"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
-	"sigs.k8s.io/controller-runtime/pkg/envtest"
-	"sigs.k8s.io/controller-runtime/pkg/envtest/printer"
-	logf "sigs.k8s.io/controller-runtime/pkg/log"
-	"sigs.k8s.io/controller-runtime/pkg/log/zap"
-	"sigs.k8s.io/controller-runtime/pkg/metrics"
+	"github.com/ryantking/controller-runtime/pkg/envtest"
+	"github.com/ryantking/controller-runtime/pkg/envtest/printer"
+	logf "github.com/ryantking/controller-runtime/pkg/log"
+	"github.com/ryantking/controller-runtime/pkg/log/zap"
+	"github.com/ryantking/controller-runtime/pkg/metrics"
 )
 
 func TestSource(t *testing.T) {

@@ -34,13 +34,13 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/kubernetes/scheme"
-	"sigs.k8s.io/controller-runtime/pkg/certwatcher"
-	"sigs.k8s.io/controller-runtime/pkg/client"
-	"sigs.k8s.io/controller-runtime/pkg/internal/httpserver"
-	"sigs.k8s.io/controller-runtime/pkg/manager"
-	"sigs.k8s.io/controller-runtime/pkg/webhook"
-	"sigs.k8s.io/controller-runtime/pkg/webhook/admission"
-	"sigs.k8s.io/controller-runtime/pkg/webhook/admission/admissiontest"
+	"github.com/ryantking/controller-runtime/pkg/certwatcher"
+	"github.com/ryantking/controller-runtime/pkg/client"
+	"github.com/ryantking/controller-runtime/pkg/internal/httpserver"
+	"github.com/ryantking/controller-runtime/pkg/manager"
+	"github.com/ryantking/controller-runtime/pkg/webhook"
+	"github.com/ryantking/controller-runtime/pkg/webhook/admission"
+	"github.com/ryantking/controller-runtime/pkg/webhook/admission/admissiontest"
 )
 
 var _ = Describe("Webhook", func() {

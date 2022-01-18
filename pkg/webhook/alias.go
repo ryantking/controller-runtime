@@ -18,7 +18,7 @@ package webhook
 
 import (
 	"gomodules.xyz/jsonpatch/v2"
-	"sigs.k8s.io/controller-runtime/pkg/webhook/admission"
+	"github.com/ryantking/controller-runtime/pkg/webhook/admission"
 )
 
 // define some aliases for common bits of the webhook functionality

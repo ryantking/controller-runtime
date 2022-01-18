@@ -30,7 +30,7 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"sigs.k8s.io/controller-runtime/pkg/certwatcher"
+	"github.com/ryantking/controller-runtime/pkg/certwatcher"
 )
 
 var _ = Describe("CertWatcher", func() {

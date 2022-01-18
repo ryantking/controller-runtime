@@ -20,8 +20,8 @@ package pkg
 
 import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	logf "sigs.k8s.io/controller-runtime/pkg/log"
-	"sigs.k8s.io/controller-runtime/pkg/scheme"
+	logf "github.com/ryantking/controller-runtime/pkg/log"
+	"github.com/ryantking/controller-runtime/pkg/scheme"
 )
 
 var (

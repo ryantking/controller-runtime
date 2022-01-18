@@ -20,12 +20,12 @@ import (
 	"os"
 
 	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
-	"sigs.k8s.io/controller-runtime/pkg/client/config"
-	"sigs.k8s.io/controller-runtime/pkg/log"
-	"sigs.k8s.io/controller-runtime/pkg/log/zap"
-	"sigs.k8s.io/controller-runtime/pkg/manager"
-	"sigs.k8s.io/controller-runtime/pkg/manager/signals"
-	"sigs.k8s.io/controller-runtime/pkg/webhook/authentication"
+	"github.com/ryantking/controller-runtime/pkg/client/config"
+	"github.com/ryantking/controller-runtime/pkg/log"
+	"github.com/ryantking/controller-runtime/pkg/log/zap"
+	"github.com/ryantking/controller-runtime/pkg/manager"
+	"github.com/ryantking/controller-runtime/pkg/manager/signals"
+	"github.com/ryantking/controller-runtime/pkg/webhook/authentication"
 )
 
 func init() {

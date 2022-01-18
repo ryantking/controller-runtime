@@ -21,9 +21,9 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/labels"
-	"sigs.k8s.io/controller-runtime/pkg/client"
-	"sigs.k8s.io/controller-runtime/pkg/event"
-	logf "sigs.k8s.io/controller-runtime/pkg/internal/log"
+	"github.com/ryantking/controller-runtime/pkg/client"
+	"github.com/ryantking/controller-runtime/pkg/event"
+	logf "github.com/ryantking/controller-runtime/pkg/internal/log"
 )
 
 var log = logf.RuntimeLog.WithName("predicate").WithName("eventFilters")

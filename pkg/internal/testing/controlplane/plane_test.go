@@ -23,8 +23,8 @@ import (
 	. "github.com/onsi/gomega"
 	kauthn "k8s.io/api/authorization/v1"
 
-	"sigs.k8s.io/controller-runtime/pkg/client"
-	. "sigs.k8s.io/controller-runtime/pkg/internal/testing/controlplane"
+	"github.com/ryantking/controller-runtime/pkg/client"
+	. "github.com/ryantking/controller-runtime/pkg/internal/testing/controlplane"
 )
 
 var _ = Describe("Control Plane", func() {

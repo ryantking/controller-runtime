@@ -21,9 +21,9 @@ import (
 	"os"
 
 	"k8s.io/apimachinery/pkg/runtime"
-	"sigs.k8s.io/controller-runtime/pkg/config"
+	"github.com/ryantking/controller-runtime/pkg/config"
 
-	"sigs.k8s.io/controller-runtime/examples/configfile/custom/v1alpha1"
+	"github.com/ryantking/controller-runtime/examples/configfile/custom/v1alpha1"
 )
 
 var scheme = runtime.NewScheme()

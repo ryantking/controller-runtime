@@ -31,8 +31,8 @@ import (
 	"k8s.io/client-go/metadata"
 	"k8s.io/client-go/rest"
 
-	"sigs.k8s.io/controller-runtime/pkg/client/apiutil"
-	"sigs.k8s.io/controller-runtime/pkg/log"
+	"github.com/ryantking/controller-runtime/pkg/client/apiutil"
+	"github.com/ryantking/controller-runtime/pkg/log"
 )
 
 // WarningHandlerOptions are options for configuring a

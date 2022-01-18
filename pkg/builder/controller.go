@@ -24,14 +24,14 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"sigs.k8s.io/controller-runtime/pkg/client"
-	"sigs.k8s.io/controller-runtime/pkg/client/apiutil"
-	"sigs.k8s.io/controller-runtime/pkg/controller"
-	"sigs.k8s.io/controller-runtime/pkg/handler"
-	"sigs.k8s.io/controller-runtime/pkg/manager"
-	"sigs.k8s.io/controller-runtime/pkg/predicate"
-	"sigs.k8s.io/controller-runtime/pkg/reconcile"
-	"sigs.k8s.io/controller-runtime/pkg/source"
+	"github.com/ryantking/controller-runtime/pkg/client"
+	"github.com/ryantking/controller-runtime/pkg/client/apiutil"
+	"github.com/ryantking/controller-runtime/pkg/controller"
+	"github.com/ryantking/controller-runtime/pkg/handler"
+	"github.com/ryantking/controller-runtime/pkg/manager"
+	"github.com/ryantking/controller-runtime/pkg/predicate"
+	"github.com/ryantking/controller-runtime/pkg/reconcile"
+	"github.com/ryantking/controller-runtime/pkg/source"
 )
 
 // Supporting mocking out functions for testing.

@@ -24,7 +24,7 @@ import (
 	"k8s.io/apimachinery/pkg/fields"
 	"k8s.io/apimachinery/pkg/labels"
 	utilpointer "k8s.io/utils/pointer"
-	"sigs.k8s.io/controller-runtime/pkg/client"
+	"github.com/ryantking/controller-runtime/pkg/client"
 )
 
 var _ = Describe("ListOptions", func() {

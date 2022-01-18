@@ -23,13 +23,13 @@ import (
 
 	"github.com/go-logr/logr"
 	"k8s.io/client-go/util/workqueue"
-	"sigs.k8s.io/controller-runtime/pkg/handler"
-	"sigs.k8s.io/controller-runtime/pkg/internal/controller"
-	"sigs.k8s.io/controller-runtime/pkg/manager"
-	"sigs.k8s.io/controller-runtime/pkg/predicate"
-	"sigs.k8s.io/controller-runtime/pkg/ratelimiter"
-	"sigs.k8s.io/controller-runtime/pkg/reconcile"
-	"sigs.k8s.io/controller-runtime/pkg/source"
+	"github.com/ryantking/controller-runtime/pkg/handler"
+	"github.com/ryantking/controller-runtime/pkg/internal/controller"
+	"github.com/ryantking/controller-runtime/pkg/manager"
+	"github.com/ryantking/controller-runtime/pkg/predicate"
+	"github.com/ryantking/controller-runtime/pkg/ratelimiter"
+	"github.com/ryantking/controller-runtime/pkg/reconcile"
+	"github.com/ryantking/controller-runtime/pkg/source"
 )
 
 // Options are the arguments for creating a new Controller.

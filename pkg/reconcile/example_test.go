@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"k8s.io/apimachinery/pkg/types"
-	"sigs.k8s.io/controller-runtime/pkg/reconcile"
+	"github.com/ryantking/controller-runtime/pkg/reconcile"
 )
 
 // This example implements a simple no-op reconcile function that prints the object to be Reconciled.

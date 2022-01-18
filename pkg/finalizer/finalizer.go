@@ -18,8 +18,8 @@ import (
 	"fmt"
 
 	kerrors "k8s.io/apimachinery/pkg/util/errors"
-	"sigs.k8s.io/controller-runtime/pkg/client"
-	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
+	"github.com/ryantking/controller-runtime/pkg/client"
+	"github.com/ryantking/controller-runtime/pkg/controller/controllerutil"
 )
 
 type finalizers map[string]Finalizer

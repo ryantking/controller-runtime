@@ -22,7 +22,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/api/meta"
 	"k8s.io/apimachinery/pkg/runtime"
-	"sigs.k8s.io/controller-runtime/pkg/internal/objectutil"
+	"github.com/ryantking/controller-runtime/pkg/internal/objectutil"
 )
 
 // NewNamespacedClient wraps an existing client enforcing the namespace value.

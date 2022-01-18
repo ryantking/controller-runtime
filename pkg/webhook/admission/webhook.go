@@ -29,9 +29,9 @@ import (
 	"k8s.io/apimachinery/pkg/util/json"
 	"k8s.io/client-go/kubernetes/scheme"
 
-	logf "sigs.k8s.io/controller-runtime/pkg/internal/log"
-	"sigs.k8s.io/controller-runtime/pkg/runtime/inject"
-	"sigs.k8s.io/controller-runtime/pkg/webhook/internal/metrics"
+	logf "github.com/ryantking/controller-runtime/pkg/internal/log"
+	"github.com/ryantking/controller-runtime/pkg/runtime/inject"
+	"github.com/ryantking/controller-runtime/pkg/webhook/internal/metrics"
 )
 
 var (

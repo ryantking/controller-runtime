@@ -14,11 +14,11 @@ import (
 	"github.com/onsi/gomega/ghttp"
 	"github.com/spf13/afero"
 
-	envp "sigs.k8s.io/controller-runtime/tools/setup-envtest/env"
-	"sigs.k8s.io/controller-runtime/tools/setup-envtest/remote"
-	"sigs.k8s.io/controller-runtime/tools/setup-envtest/store"
-	"sigs.k8s.io/controller-runtime/tools/setup-envtest/versions"
-	wf "sigs.k8s.io/controller-runtime/tools/setup-envtest/workflows"
+	envp "github.com/ryantking/controller-runtime/tools/setup-envtest/env"
+	"github.com/ryantking/controller-runtime/tools/setup-envtest/remote"
+	"github.com/ryantking/controller-runtime/tools/setup-envtest/store"
+	"github.com/ryantking/controller-runtime/tools/setup-envtest/versions"
+	wf "github.com/ryantking/controller-runtime/tools/setup-envtest/workflows"
 )
 
 func ver(major, minor, patch int) versions.Concrete {

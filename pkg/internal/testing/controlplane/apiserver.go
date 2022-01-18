@@ -26,9 +26,9 @@ import (
 	"strconv"
 	"time"
 
-	"sigs.k8s.io/controller-runtime/pkg/internal/testing/addr"
-	"sigs.k8s.io/controller-runtime/pkg/internal/testing/certs"
-	"sigs.k8s.io/controller-runtime/pkg/internal/testing/process"
+	"github.com/ryantking/controller-runtime/pkg/internal/testing/addr"
+	"github.com/ryantking/controller-runtime/pkg/internal/testing/certs"
+	"github.com/ryantking/controller-runtime/pkg/internal/testing/process"
 )
 
 const (

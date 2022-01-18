@@ -23,9 +23,9 @@ import (
 	. "github.com/onsi/gomega"
 
 	"k8s.io/client-go/rest"
-	"sigs.k8s.io/controller-runtime/pkg/client"
-	"sigs.k8s.io/controller-runtime/pkg/envtest"
-	"sigs.k8s.io/controller-runtime/pkg/envtest/printer"
+	"github.com/ryantking/controller-runtime/pkg/client"
+	"github.com/ryantking/controller-runtime/pkg/envtest"
+	"github.com/ryantking/controller-runtime/pkg/envtest/printer"
 )
 
 func TestControllerutil(t *testing.T) {

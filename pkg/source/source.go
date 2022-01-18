@@ -26,15 +26,15 @@ import (
 	"k8s.io/apimachinery/pkg/api/meta"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/client-go/util/workqueue"
-	"sigs.k8s.io/controller-runtime/pkg/client"
-	"sigs.k8s.io/controller-runtime/pkg/event"
-	"sigs.k8s.io/controller-runtime/pkg/handler"
-	logf "sigs.k8s.io/controller-runtime/pkg/internal/log"
-	"sigs.k8s.io/controller-runtime/pkg/runtime/inject"
-	"sigs.k8s.io/controller-runtime/pkg/source/internal"
+	"github.com/ryantking/controller-runtime/pkg/client"
+	"github.com/ryantking/controller-runtime/pkg/event"
+	"github.com/ryantking/controller-runtime/pkg/handler"
+	logf "github.com/ryantking/controller-runtime/pkg/internal/log"
+	"github.com/ryantking/controller-runtime/pkg/runtime/inject"
+	"github.com/ryantking/controller-runtime/pkg/source/internal"
 
-	"sigs.k8s.io/controller-runtime/pkg/cache"
-	"sigs.k8s.io/controller-runtime/pkg/predicate"
+	"github.com/ryantking/controller-runtime/pkg/cache"
+	"github.com/ryantking/controller-runtime/pkg/predicate"
 )
 
 var log = logf.RuntimeLog.WithName("source")

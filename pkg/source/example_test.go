@@ -18,10 +18,10 @@ package source_test
 
 import (
 	corev1 "k8s.io/api/core/v1"
-	"sigs.k8s.io/controller-runtime/pkg/controller"
-	"sigs.k8s.io/controller-runtime/pkg/event"
-	"sigs.k8s.io/controller-runtime/pkg/handler"
-	"sigs.k8s.io/controller-runtime/pkg/source"
+	"github.com/ryantking/controller-runtime/pkg/controller"
+	"github.com/ryantking/controller-runtime/pkg/event"
+	"github.com/ryantking/controller-runtime/pkg/handler"
+	"github.com/ryantking/controller-runtime/pkg/source"
 )
 
 var ctrl controller.Controller

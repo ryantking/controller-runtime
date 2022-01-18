@@ -60,7 +60,7 @@ var (
 	// It is not registered by default. To register:
 	//	import (
 	//		clientmetrics "k8s.io/client-go/tools/metrics"
-	//		clmetrics "sigs.k8s.io/controller-runtime/metrics"
+	//		clmetrics "github.com/ryantking/controller-runtime/metrics"
 	//	)
 	//
 	//	func init() {

@@ -17,9 +17,9 @@ import (
 	"github.com/go-logr/logr"
 	"github.com/spf13/afero" // too bad fs.FS isn't writable :-/
 
-	"sigs.k8s.io/controller-runtime/tools/setup-envtest/remote"
-	"sigs.k8s.io/controller-runtime/tools/setup-envtest/store"
-	"sigs.k8s.io/controller-runtime/tools/setup-envtest/versions"
+	"github.com/ryantking/controller-runtime/tools/setup-envtest/remote"
+	"github.com/ryantking/controller-runtime/tools/setup-envtest/store"
+	"github.com/ryantking/controller-runtime/tools/setup-envtest/versions"
 )
 
 // Env represents an environment for downloading and otherwise manipulating

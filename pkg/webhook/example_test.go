@@ -21,11 +21,11 @@ import (
 	"net/http"
 
 	"k8s.io/client-go/kubernetes/scheme"
-	ctrl "sigs.k8s.io/controller-runtime"
-	logf "sigs.k8s.io/controller-runtime/pkg/internal/log"
-	"sigs.k8s.io/controller-runtime/pkg/manager/signals"
-	. "sigs.k8s.io/controller-runtime/pkg/webhook"
-	"sigs.k8s.io/controller-runtime/pkg/webhook/admission"
+	ctrl "github.com/ryantking/controller-runtime"
+	logf "github.com/ryantking/controller-runtime/pkg/internal/log"
+	"github.com/ryantking/controller-runtime/pkg/manager/signals"
+	. "github.com/ryantking/controller-runtime/pkg/webhook"
+	"github.com/ryantking/controller-runtime/pkg/webhook/admission"
 )
 
 var (

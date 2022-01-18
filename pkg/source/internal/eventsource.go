@@ -21,12 +21,12 @@ import (
 
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/util/workqueue"
-	"sigs.k8s.io/controller-runtime/pkg/client"
-	"sigs.k8s.io/controller-runtime/pkg/event"
-	"sigs.k8s.io/controller-runtime/pkg/handler"
-	logf "sigs.k8s.io/controller-runtime/pkg/internal/log"
+	"github.com/ryantking/controller-runtime/pkg/client"
+	"github.com/ryantking/controller-runtime/pkg/event"
+	"github.com/ryantking/controller-runtime/pkg/handler"
+	logf "github.com/ryantking/controller-runtime/pkg/internal/log"
 
-	"sigs.k8s.io/controller-runtime/pkg/predicate"
+	"github.com/ryantking/controller-runtime/pkg/predicate"
 )
 
 var log = logf.RuntimeLog.WithName("source").WithName("EventHandler")

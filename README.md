@@ -1,5 +1,5 @@
-[![Go Report Card](https://goreportcard.com/badge/sigs.k8s.io/controller-runtime)](https://goreportcard.com/report/sigs.k8s.io/controller-runtime)
-[![godoc](https://pkg.go.dev/badge/sigs.k8s.io/controller-runtime)](https://pkg.go.dev/sigs.k8s.io/controller-runtime)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ryantking/controller-runtime)](https://goreportcard.com/report/github.com/ryantking/controller-runtime)
+[![godoc](https://pkg.go.dev/badge/github.com/ryantking/controller-runtime)](https://pkg.go.dev/github.com/ryantking/controller-runtime)
 
 # Kubernetes controller-runtime Project
 
@@ -12,10 +12,10 @@ see how it can be used.
 
 Documentation:
 
-- [Package overview](https://pkg.go.dev/sigs.k8s.io/controller-runtime/pkg)
-- [Basic controller using builder](https://pkg.go.dev/sigs.k8s.io/controller-runtime/pkg/builder#example-Builder)
-- [Creating a manager](https://pkg.go.dev/sigs.k8s.io/controller-runtime/pkg/manager#example-New)
-- [Creating a controller](https://pkg.go.dev/sigs.k8s.io/controller-runtime/pkg/controller#example-New)
+- [Package overview](https://pkg.go.dev/github.com/ryantking/controller-runtime/pkg)
+- [Basic controller using builder](https://pkg.go.dev/github.com/ryantking/controller-runtime/pkg/builder#example-Builder)
+- [Creating a manager](https://pkg.go.dev/github.com/ryantking/controller-runtime/pkg/manager#example-New)
+- [Creating a controller](https://pkg.go.dev/github.com/ryantking/controller-runtime/pkg/controller#example-New)
 - [Examples](https://github.com/ryantking/controller-runtime/blob/master/examples)
 - [Designs](https://github.com/ryantking/controller-runtime/blob/master/designs)
 

@@ -24,7 +24,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"sigs.k8s.io/controller-runtime/pkg/config/v1alpha1"
+	"github.com/ryantking/controller-runtime/pkg/config/v1alpha1"
 )
 
 // ControllerManagerConfiguration defines the functions necessary to parse a config file
