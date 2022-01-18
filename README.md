@@ -16,8 +16,8 @@ Documentation:
 - [Basic controller using builder](https://pkg.go.dev/sigs.k8s.io/controller-runtime/pkg/builder#example-Builder)
 - [Creating a manager](https://pkg.go.dev/sigs.k8s.io/controller-runtime/pkg/manager#example-New)
 - [Creating a controller](https://pkg.go.dev/sigs.k8s.io/controller-runtime/pkg/controller#example-New)
-- [Examples](https://github.com/kubernetes-sigs/controller-runtime/blob/master/examples)
-- [Designs](https://github.com/kubernetes-sigs/controller-runtime/blob/master/designs)
+- [Examples](https://github.com/ryantking/controller-runtime/blob/master/examples)
+- [Designs](https://github.com/ryantking/controller-runtime/blob/master/designs)
 
 # Versioning, Maintenance, and Compatibility
 
@@ -48,7 +48,7 @@ See [FAQ.md](FAQ.md)
 
 Learn how to engage with the Kubernetes community on the [community page](http://kubernetes.io/community/).
 
-controller-runtime is a subproject of the [kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) project
+controller-runtime is a subproject of the [kubebuilder](https://github.com/ryantking/kubebuilder) project
 in sig apimachinery.
 
 You can reach the maintainers of this project at:

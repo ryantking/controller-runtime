@@ -121,5 +121,5 @@ implications of using a different cache than the default one
 
 
 [1] https://github.com/nmstate/kubernetes-nmstate/pull/687
-[2] https://github.com/kubernetes-sigs/controller-runtime/issues/244
-[3] https://github.com/kubernetes-sigs/controller-runtime/pull/1404
+[2] https://github.com/ryantking/controller-runtime/issues/244
+[3] https://github.com/ryantking/controller-runtime/pull/1404

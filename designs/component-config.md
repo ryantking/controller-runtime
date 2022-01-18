@@ -45,9 +45,9 @@ This change is important because:
 
 ### Links to Open Issues
 
-- [#518 Provide a ComponentConfig to tweak the Manager](https://github.com/kubernetes-sigs/controller-runtime/issues/518)
-- [#207 Reduce command line flag boilerplate](https://github.com/kubernetes-sigs/controller-runtime/issues/207)
-- [#722 Implement ComponentConfig by default & stop using (most) flags](https://github.com/kubernetes-sigs/kubebuilder/issues/722)
+- [#518 Provide a ComponentConfig to tweak the Manager](https://github.com/ryantking/controller-runtime/issues/518)
+- [#207 Reduce command line flag boilerplate](https://github.com/ryantking/controller-runtime/issues/207)
+- [#722 Implement ComponentConfig by default & stop using (most) flags](https://github.com/ryantking/kubebuilder/issues/722)
 
 ### Goals
 

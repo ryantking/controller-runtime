@@ -293,7 +293,7 @@ func (s *APIServer) setProcessState() error {
 		Data:     s,
 		Defaults: s.defaultArgs(),
 		MinimalDefaults: map[string][]string{
-			// as per kubernetes-sigs/controller-runtime#641, we need this (we
+			// as per ryantking/controller-runtime#641, we need this (we
 			// probably need other stuff too, but this is the only thing that was
 			// previously considered a "minimal default")
 			"service-cluster-ip-range": {"10.0.0.0/24"},

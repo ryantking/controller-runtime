@@ -81,7 +81,7 @@ func ValidationResponse(allowed bool, reason string) Response {
 
 // PatchResponseFromRaw takes 2 byte arrays and returns a new response with json patch.
 // The original object should be passed in as raw bytes to avoid the roundtripping problem
-// described in https://github.com/kubernetes-sigs/kubebuilder/issues/510.
+// described in https://github.com/ryantking/kubebuilder/issues/510.
 func PatchResponseFromRaw(original, current []byte) Response {
 	patches, err := jsonpatch.CreatePatch(original, current)
 	if err != nil {
